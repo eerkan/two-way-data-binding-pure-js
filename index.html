@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Way Data Binding</title>
+</head>
+
+<body>
+    a: <input type="text" data-two-way-bind="a" />
+    b: <input type="text" data-two-way-bind="b" />
+    <br />
+    Add: <span data-two-way-bind="resultAdd"></span><br />
+    Sub: <span data-two-way-bind="resultSub"></span><br />
+    Mul: <span data-two-way-bind="resultMul"></span><br />
+    Div: <span data-two-way-bind="resultDiv"></span><br />
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
